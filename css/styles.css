@@ -1,14 +1,54 @@
-body {
-  background-color: #d5def5;
+:root {
+  --hero-bg-color: #e5dfff;
+  --btn-contact-color: #c9bdff;
+  --btn-contact-border: #c9bdff;
 }
+
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
+  font-size: 96px;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 35;
 }
 
 p {
   font-family: "Poppins", sans-serif;
+  font-size: 17px;
 }
 footer {
+  margin: 20px auto;
+  padding: 20px;
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  border-top: solid 1px #7d828a;
+}
+
+.hero {
+  padding: 160px 20px;
+  background-color: var(--hero-bg-color);
+  text-align: center;
+}
+
+.btn-contact {
+  margin: 40px auto;
+  background-color: var(--btn-contact-color);
+  border: solid 0.5px var(--btn-contact-border);
+  border-radius: 30px;
+  color: #6c58ba;
+  line-height: 27px;
+}
+.btn-contact:hover {
+  background-color: #a196cf;
+  border: solid 0.5px #c9bdff;
+  color: #393e46;
 }
