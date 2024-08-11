@@ -1,0 +1,14 @@
+body {
+  background-color: #d5def5;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+footer {
+  font-family: "Roboto", sans-serif;
+}
