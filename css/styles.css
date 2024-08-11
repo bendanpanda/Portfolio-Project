@@ -32,6 +32,12 @@ footer {
   text-align: center;
   border-top: solid 1px #7d828a;
 }
+a {
+  color: #6c58ba;
+}
+a:hover {
+  color: #5b4b9c;
+}
 
 .hero {
   padding: 160px 20px;
