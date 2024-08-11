@@ -3,21 +3,29 @@
   --btn-contact-color: #c9bdff;
   --btn-contact-border: #c9bdff;
 }
-
+/* Ivanka Ivanova*/
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
   font-size: 96px;
 }
+/* Hello, I am */
 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 55px;
 }
+/* front-end... */
 h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 35;
+}
+/*project names*/
+h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 36px;
 }
 
 p {
@@ -36,7 +44,8 @@ a {
   color: #6c58ba;
 }
 a:hover {
-  color: #5b4b9c;
+  color: #483c78;
+  text-decoration: none;
 }
 
 .hero {
@@ -57,4 +66,15 @@ a:hover {
   background-color: #a196cf;
   border: solid 0.5px #c9bdff;
   color: #393e46;
+}
+.btn-websites {
+  background-color: var(--hero-bg-color);
+  border: solid 0.5px #c9bdff;
+  border-radius: 30px;
+  color: #6c58ba;
+  line-height: 27px;
+}
+.btn-websites:hover {
+  background-color: #fff;
+  color: #6c58ba;
 }
