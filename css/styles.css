@@ -78,3 +78,7 @@ a:hover {
   background-color: #fff;
   color: #6c58ba;
 }
+.container {
+  margin: 20px auto;
+  max-width: 80%;
+}
