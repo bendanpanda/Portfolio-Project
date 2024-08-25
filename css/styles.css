@@ -48,6 +48,40 @@ a:hover {
   text-decoration: none;
 }
 
+.navigation {
+  padding: 5px 15px;
+}
+
+.nav-logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-left: 10px;
+  display: inline;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  line-height: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #6c58ba;
+}
+
 .hero {
   padding: 160px 20px;
   background-color: var(--hero-bg-color);
@@ -56,6 +90,7 @@ a:hover {
 
 .container {
   margin: 20px auto;
+  padding-bottom: 50px;
   max-width: 80%;
 }
 
@@ -70,7 +105,7 @@ a:hover {
 
 .contact-container {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 300px;
   margin: 30px auto;
   max-width: 80%;
 }
@@ -86,6 +121,7 @@ a:hover {
   border-radius: 30px;
   color: #6c58ba;
   line-height: 27px;
+  transition: all 100ms ease-in-out;
 }
 .btn-contact:hover {
   background-color: #a196cf;
@@ -99,6 +135,7 @@ a:hover {
   border-radius: 30px;
   color: #6c58ba;
   line-height: 27px;
+  transition: all 100ms ease-in-out;
 }
 .btn-websites:hover {
   background-color: #fff;
