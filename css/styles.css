@@ -54,6 +54,11 @@ a:hover {
   text-align: center;
 }
 
+.about-head {
+  padding: 60px 20px;
+  text-align: center;
+}
+
 .btn-contact {
   margin: 40px auto;
   background-color: var(--btn-contact-color);
@@ -81,4 +86,8 @@ a:hover {
 .container {
   margin: 20px auto;
   max-width: 80%;
+}
+
+.me {
+  border-radius: 70px;
 }
