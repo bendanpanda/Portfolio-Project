@@ -54,6 +54,11 @@ a:hover {
   text-align: center;
 }
 
+.container {
+  margin: 20px auto;
+  max-width: 80%;
+}
+
 .head-container {
   padding: 60px 20px;
   text-align: center;
@@ -61,6 +66,17 @@ a:hover {
 
 .about-me {
   padding: 50px 0;
+}
+
+.contact-container {
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 30px auto;
+  max-width: 80%;
+}
+
+.me {
+  border-radius: 50%;
 }
 
 .btn-contact {
@@ -76,6 +92,7 @@ a:hover {
   border: solid 0.5px #c9bdff;
   color: #393e46;
 }
+
 .btn-websites {
   background-color: var(--hero-bg-color);
   border: solid 0.5px #c9bdff;
@@ -87,11 +104,22 @@ a:hover {
   background-color: #fff;
   color: #6c58ba;
 }
-.container {
-  margin: 20px auto;
-  max-width: 80%;
-}
 
-.me {
-  border-radius: 50%;
+.email {
+  color: #42b883;
+}
+.email:hover {
+  color: #97cba9;
+}
+.linkedin {
+  color: #007cb9;
+}
+.linkedin:hover {
+  color: #8dc6ff;
+}
+.github {
+  color: #6643b5;
+}
+.github:hover {
+  color: #8f71ff;
 }
